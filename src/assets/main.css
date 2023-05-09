@@ -1,6 +1,12 @@
 body{
-  background-color: #494D5F;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #191414;
+  font-family: Montserrat;
   color: #E5EAF5;
   margin: 0;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+   url(./fonts/Montserrat-Regular.ttf) format("truetype");
+  font-weight: 400;
 }
