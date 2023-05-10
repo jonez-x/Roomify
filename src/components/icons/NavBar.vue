@@ -2,28 +2,27 @@
 </script>
 
 <template>
-  <main>
     <nav>
       <ul>
         <h1>Roomify</h1>
         <div class="main-nav">
-          <li><a>Home </a><v-icon icon="mdi-vuetify"></v-icon></li>
+          <li><a>Home </a></li>
           <li><a>Scene Editor</a></li>
           <li><a>Settings</a></li>
         </div>
          <button>Log in</button>
       </ul>
     </nav>
-  </main>
 </template>
 
-<style>
+<style scoped>
  h1{
   margin: 20px;
   margin-left: 30px;
   font-size: 30px;
   cursor: pointer;
-  color: #1DB954;
+  color: #FF4500;
+  user-select: none;
  }
 
  ul{
@@ -45,6 +44,9 @@
   cursor: pointer;
   padding: 20px;
  }
+ a{
+  user-select: none;
+ }
  li:hover{
   transition: ease-in-out 150ms;
   transform: translateY(-10px);
@@ -60,7 +62,7 @@
   color: #191414;
   font-family: Montserrat;
   font-weight: 600;
-  background-color: #1DB954;
+  background-color: #FF4500;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
