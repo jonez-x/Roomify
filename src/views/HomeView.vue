@@ -5,9 +5,11 @@
 </script>
 
 <template>
-  <NavBar></NavBar>
-  <Hero></Hero>
-  <Section1></Section1>
+  <main>
+    <NavBar></NavBar>
+    <Hero></Hero>
+    <Section1></Section1>
+  </main> 
 </template>
 
 <style>
