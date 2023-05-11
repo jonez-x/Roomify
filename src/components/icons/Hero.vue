@@ -1,9 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import room from './room.vue';
+</script>
 
 <template>
   <section class="hero-section">
-    <p>Welcome on Rommify!</p>
-    
+    <room></room>
   </section>
 </template>
 

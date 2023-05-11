@@ -1,5 +1,9 @@
 {
   "files": [],
+  "typeRoots": [
+    "./typings",
+    "./node_modules/@types/"
+  ],
   "references": [
     {
       "path": "./tsconfig.node.json"
